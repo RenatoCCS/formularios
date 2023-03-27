@@ -573,46 +573,46 @@
 
 .email__Login {
   position: absolute;
-  width: 396px;
+  width: 515px;
   height: 69px;
-  top: 406px;
-  left: 522px;
+  top: 142px;
+  left: 463px;
 }
 
 .email__Login__Titulo {
   position: absolute;
   width: 478px;
   height: 16px;
-  top: -4px;
+  top: 0px;
   left: 0px;
   color: var(--segunda-cor);
   font-family: var(--fonte-primaria);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 16px;
 }
 
 .email__Login__Campo {
   position: absolute;
   width: 104px;
-  height: 24px;
-  top: 34px;
-  left: 14px;
+  height: 16px;
+  top: 38px;
+  left: 17px;
   color: var(--terceira-cor);
   font-family: var(--fonte-primaria);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  padding: 12px 270px 11px 14px;
+  line-height: 16px;
+  padding: 16px 390px 15px 17px;
 }
 
 .email__Login__Campo {
   box-sizing: border-box;
   border: 1px solid;
   position: absolute;
-  width: 396px;
+  width: 515px;
   height: 47px;
   top: 22px;
   left: 0%;
@@ -623,48 +623,48 @@
   background-color: var(--quarta-cor);
 }
 
-.senha__Cadastro {
+.senha__Login {
   position: absolute;
-  width: 396px;
-  height: 75px;
-  top: 497px;
-  left: 522px;
+  width: 515px;
+  height: 69px;
+  top: 250px;
+  left: 463px;
 }
 
-.senha__Cadastro__Titulo {
+.senha__Login__Titulo {
   position: absolute;
   width: 39px;
-  height: 24px;
-  top: -4px;
+  height: 16px;
+  top: 0px;
   left: 0px;
   color: var(--segunda-cor);
   font-family: var(--fonte-primaria);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 16px;
 }
 
-.senha__Cadastro__Campo {
+.senha__Login__Campo {
   position: absolute;
   width: 97px;
-  height: 24px;
-  top: 34px;
-  left: 14px;
+  height: 16px;
+  top: 288px;
+  left: 480px;
   color: var(--terceira-cor);
   font-family: var(--fonte-primaria);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  padding: 12px 278px 11px 14px;
+  line-height: 16px;
+  padding: 16px 390px 15px 17px;
 }
 
-.senha__Cadastro__Campo {
+.senha__Login__Campo {
   box-sizing: border-box;
   border: 1px solid;
   position: absolute;
-  width: 396px;
+  width: 515px;
   height: 47px;
   top: 22px;
   left: 0%;
