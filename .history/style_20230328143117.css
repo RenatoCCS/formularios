@@ -541,7 +541,7 @@
   text-align: center;
 }
 
-.pergunta__Cadastro__Frase {
+.pergunta__Cadastro {
   position: absolute;
   width: 300px;
   height: 16px;
@@ -557,17 +557,16 @@
 
 .pergunta__Link__Cadastro {
   position: absolute;
-  width: 75px;
+  width: 300px;
   height: 16px;
-  top: 0px;
-  left: 225px;
-  color: var(--setima-cor);
+  top: 834px;
+  left: 572px;
+  color: var(--segunda-cor);
   font-family: var(--fonte-primaria);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  text-decoration: none;
 }
 
 /*Inicio da parte Login*/
@@ -577,7 +576,7 @@
   width: 300px; /*O indicado era 240*/
   height: 43px;
   top: 68px;
-  left: 590px;
+  left: 601px;
   color: var(--primeira-cor);
   font-family: var(--fonte-primaria);
   font-style: normal;
@@ -719,16 +718,12 @@
   height: 16px;
   top: 346px;
   left: 844px;
+  color: var();
   font-family: var(--fonte-primaria);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-}
-
-.conectado__Login__Link {
-  text-decoration: none;
-  color: var(--setima-cor);
 }
 
 .botao__Login {
@@ -773,28 +768,13 @@
   width: 255px;
   height: 16px;
   top: 472px;
-  left: 615px;
+  left: 596px;
   color: var(--segunda-cor);
   font-family: var(--fonte-primaria);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-}
-
-.semConta__Login____Link {
-  position: absolute;
-  width: 249px;
-  height: 16px;
-  top: 0px;
-  left: 175px;
-  color: var(--setima-cor);
-  font-family: var(--fonte-primaria);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  text-decoration: none;
 }
 
 /*Inicio da parte de recupere a senha*/
@@ -923,14 +903,10 @@
   height: 16px;
   top: 376px;
   left: 664px;
+  color: var(--setima-cor);
   font-family: var(--fonte-primaria);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-}
-
-.senha__Frase__Link {
-  text-decoration: none;
-  color: var(--setima-cor);
 }

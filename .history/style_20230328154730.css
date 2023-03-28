@@ -923,6 +923,7 @@
   height: 16px;
   top: 376px;
   left: 664px;
+  color: var(--setima-cor);
   font-family: var(--fonte-primaria);
   font-style: normal;
   font-weight: 400;
@@ -932,5 +933,4 @@
 
 .senha__Frase__Link {
   text-decoration: none;
-  color: var(--setima-cor);
 }
