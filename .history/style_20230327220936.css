@@ -1,0 +1,883 @@
+@import url('https://fonts.googleapis.com/css2?family= Roboto :wght@400;500;700 & display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primeira-cor: #3f3d56;
+  --segunda-cor: #323730;
+  --terceira-cor: #abb3a8;
+  --quarta-cor: #ffffff;
+  --quinta-cor: #3f3f40;
+  --sexta-cor: #da2a41;
+
+  --fonte-primaria: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form__Cadastro__Titulo {
+  position: absolute;
+  width: 302px;
+  height: 43px;
+  left: 569px;
+  top: 68px;
+  color: var(--primeira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px; /*o indicado é 37px, mas se manter quebra a linha*/
+  line-height: 43px;
+  text-align: center;
+}
+
+.nome__Cadastro {
+  position: absolute;
+  width: 396px;
+  height: 69px;
+  top: 139px;
+  left: 522px;
+}
+
+.nome__Cadastro__Nomecompleto {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  top: -6px;
+  left: 0px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.nome__Cadastro__Campo {
+  position: absolute;
+  width: 163px;
+  height: 24px;
+  top: 34px;
+  left: 14px;
+  color: var(--terceira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 12px 219px 11px 14px;
+}
+
+.nome__Cadastro__Campo {
+  box-sizing: border-box;
+  border: 1px solid;
+  position: absolute;
+  width: 396px;
+  height: 47px;
+  top: 22px;
+  left: 0%;
+  right: 0%;
+  top: 31.88%;
+  bottom: 0%;
+  color: var(--terceira-cor);
+  background-color: var(--quarta-cor);
+}
+
+.data__Cadastro {
+  position: absolute;
+  width: 170px;
+  height: 74px;
+  left: 522px;
+  top: 232px;
+}
+
+.data__Cadastro__Nascimento {
+  position: absolute;
+  width: 127px;
+  height: 18px;
+  top: -2px;
+  left: 0px;
+  color: var(--quinta-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.data__Cadastro__Calendario {
+  position: absolute;
+  width: 83px;
+  height: 24px;
+  top: 12px;
+  left: 14px;
+  color: var(--terceira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  padding: 12px 0px 11px 14px;
+}
+
+.data__Cadastro__Calendario {
+  box-sizing: border-box;
+  border: 1px solid;
+  position: absolute;
+  width: 170px;
+  height: 47px;
+  top: 22px;
+  left: 0%;
+  right: 0%;
+  top: 31.88%;
+  bottom: 0%;
+  color: var(--terceira-cor);
+  background-color: var(--quarta-cor);
+}
+
+.pais__Cadastro {
+  position: absolute;
+  width: 208px;
+  height: 69px;
+  top: 230px;
+  left: 710px;
+}
+
+.pais__Cadastro__Pais {
+  position: absolute;
+  width: 34px;
+  height: 15px;
+  top: -2px;
+  left: 0px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.pais__Cadastro__Vermelho {
+  position: absolute;
+  width: 34px;
+  height: 15px;
+  top: -2px;
+  left: 30px;
+  color: var(--sexta-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.pais__Cadastro__Campo {
+  position: absolute;
+  width: 66px;
+  height: 24px;
+  top: 34px;
+  left: 14px;
+  color: var(--terceira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 12px 11px 14px;
+}
+
+.pais__Cadastro__Campo {
+  box-sizing: border-box;
+  border: 1px solid;
+  position: absolute;
+  width: 208px;
+  height: 47px;
+  top: 24px;
+  left: 0%;
+  right: 0%;
+  top: 31, 88%;
+  bottom: 0%;
+  color: var(--terceira-cor);
+  background-color: var(--quarta-cor);
+}
+
+.pais__Cadastro__Campo option {
+  position: absolute;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.pais__Cadastro__Seta {
+  position: absolute;
+  width: 12px;
+  height: 6px;
+  top: 45px;
+  left: 193px;
+}
+
+.genero__Cadastro {
+  position: absolute;
+  width: 386px;
+  height: 50px;
+  top: 328px;
+  left: 522px;
+}
+
+.genero__Cadastro__Titulo {
+  position: absolute;
+  width: 49px;
+  height: 24px;
+  top: -2px;
+  left: 0px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.genero__Cadastro__Botao1 {
+  position: absolute;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+  top: 32px;
+  left: 0px;
+}
+
+.genero__Cadastro__Feminino {
+  position: absolute;
+  width: 58px;
+  height: 16px;
+  top: 32px;
+  left: 24px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.genero__Cadastro__Botao2 {
+  position: absolute;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+  top: 32px;
+  left: 137px;
+}
+
+.genero__Cadastro__Masculino {
+  position: absolute;
+  width: 65px;
+  height: 16px;
+  top: 32px;
+  left: 161px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.genero__Cadastro__Botao3 {
+  position: absolute;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+  top: 32px;
+  left: 282px;
+}
+
+.genero__Cadastro__Naodeclarar {
+  position: absolute;
+  width: 81px;
+  height: 16px;
+  top: 32px;
+  left: 306px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.email__Cadastro {
+  position: absolute;
+  width: 396px;
+  height: 69px;
+  top: 406px;
+  left: 522px;
+}
+
+.email__Cadastro__Titulo {
+  position: absolute;
+  width: 40px;
+  height: 24px;
+  top: -4px;
+  left: 0px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.email__Cadastro__Campo {
+  position: absolute;
+  width: 104px;
+  height: 24px;
+  top: 34px;
+  left: 14px;
+  color: var(--terceira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 12px 270px 11px 14px;
+}
+
+.email__Cadastro__Campo {
+  box-sizing: border-box;
+  border: 1px solid;
+  position: absolute;
+  width: 396px;
+  height: 47px;
+  top: 22px;
+  left: 0%;
+  right: 0%;
+  top: 31.88%;
+  bottom: 0%;
+  color: var(--terceira-cor);
+  background-color: var(--quarta-cor);
+}
+
+.senha__Cadastro {
+  position: absolute;
+  width: 396px;
+  height: 75px;
+  top: 497px;
+  left: 522px;
+}
+
+.senha__Cadastro__Titulo {
+  position: absolute;
+  width: 39px;
+  height: 24px;
+  top: -4px;
+  left: 0px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.senha__Cadastro__Campo {
+  position: absolute;
+  width: 97px;
+  height: 24px;
+  top: 34px;
+  left: 14px;
+  color: var(--terceira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 12px 278px 11px 14px;
+}
+
+.senha__Cadastro__Campo {
+  box-sizing: border-box;
+  border: 1px solid;
+  position: absolute;
+  width: 396px;
+  height: 47px;
+  top: 22px;
+  left: 0%;
+  right: 0%;
+  top: 31.88%;
+  bottom: 0%;
+  color: var(--terceira-cor);
+  background-color: var(--quarta-cor);
+}
+
+.confirma__Cadastro {
+  position: absolute;
+  width: 396px;
+  height: 75px;
+  top: 594px;
+  left: 522px;
+}
+
+.confirma__Cadastro__Titulo {
+  position: absolute;
+  width: 126px;
+  height: 24px;
+  top: -4px;
+  left: 0px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.confirma__Cadastro__Campo {
+  position: absolute;
+  width: 104px;
+  height: 24px;
+  top: 34px;
+  left: 14px;
+  color: var(--terceira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 12px 276px 11px 14px;
+}
+
+.confirma__Cadastro__Campo {
+  box-sizing: border-box;
+  border: 1px solid;
+  position: absolute;
+  width: 396px;
+  height: 47px;
+  top: 22px;
+  left: 0%;
+  right: 0%;
+  top: 31.88%;
+  bottom: 0%;
+  color: var(--terceira-cor);
+  background-color: var(--quarta-cor);
+}
+
+.termo__Cadastro {
+  position: absolute;
+  width: 396px;
+  height: 34px;
+  top: 697px;
+  left: 522px;
+}
+
+.termo__Cadastro__Botao {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 0px;
+  left: 0px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.termo__Cadastro__Texto {
+  position: absolute;
+  width: 368px;
+  height: 34px;
+  top: -3px;
+  left: 30px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+}
+
+.botao__Cadastro {
+  position: absolute;
+  width: 396px;
+  height: 47px;
+  top: 759px;
+  left: 522px;
+}
+
+.botao__Cadastro__Cadastrar {
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 396px;
+  height: 47px;
+  top: 0px;
+  background-color: var(--primeira-cor);
+}
+
+.botao__Cadastro__Cadastrar {
+  color: var(--quarta-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.pergunta__Cadastro {
+  position: absolute;
+  width: 300px;
+  height: 16px;
+  top: 834px;
+  left: 572px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/*Inicio da parte Login*/
+
+.form__Login__Titulo {
+  position: absolute;
+  width: 300px; /*O indicado era 240*/
+  height: 43px;
+  top: 68px;
+  left: 601px;
+  color: var(--primeira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.email__Login {
+  position: absolute;
+  width: 515px;
+  height: 69px;
+  top: 142px;
+  left: 480px;
+}
+
+.email__Login__Titulo {
+  position: absolute;
+  width: 478px;
+  height: 16px;
+  top: 0px;
+  left: 0px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.email__Login__Campo {
+  position: absolute;
+  width: 104px;
+  height: 16px;
+  top: 38px;
+  left: 17px;
+  color: var(--terceira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 16px 390px 15px 17px;
+}
+
+.email__Login__Campo {
+  box-sizing: border-box;
+  border: 1px solid;
+  position: absolute;
+  width: 515px;
+  height: 47px;
+  top: 22px;
+  left: 0%;
+  right: 0%;
+  top: 31.88%;
+  bottom: 0%;
+  color: var(--terceira-cor);
+  background-color: var(--quarta-cor);
+}
+
+.senha__Login {
+  position: absolute;
+  width: 515px;
+  height: 69px;
+  top: 250px;
+  left: 480px;
+}
+
+.senha__Login__Titulo {
+  position: absolute;
+  width: 39px;
+  height: 16px;
+  top: 0px;
+  left: 0px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.senha__Login__Campo {
+  position: absolute;
+  width: 97px;
+  height: 16px;
+  top: 288px;
+  left: 480px;
+  color: var(--terceira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 16px 390px 15px 17px;
+}
+
+.senha__Login__Campo {
+  box-sizing: border-box;
+  border: 1px solid;
+  position: absolute;
+  width: 515px;
+  height: 47px;
+  top: 22px;
+  left: 0%;
+  right: 0%;
+  top: 31.88%;
+  bottom: 0%;
+  color: var(--terceira-cor);
+  background-color: var(--quarta-cor);
+}
+
+.conectado__Login__Botao {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 345px;
+  left: 480px;
+}
+
+.conectado__Login__Texto {
+  position: absolute;
+  width: 165px;
+  height: 16px;
+  top: 346px;
+  left: 510px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.conectado__Login__Senha {
+  position: absolute;
+  width: 150px;
+  height: 16px;
+  top: 346px;
+  left: 844px;
+  color: var();
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.botao__Login {
+  position: absolute;
+  width: 514px;
+  height: 47px;
+  top: 393px;
+  left: 480px;
+}
+
+.botao__Entrar__Login {
+  position: absolute;
+  width: 43px;
+  height: 19px;
+  top: 14px;
+  left: 236px;
+  color: var(--quarta-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.botao__Entrar__Login {
+  box-sizing: border-box;
+  border: 1px solid;
+  position: absolute;
+  width: 514px;
+  height: 47px;
+  top: 22px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  color: var(--quarta-cor);
+  background-color: var(--primeira-cor);
+}
+
+.semConta__Login____Frase {
+  position: absolute;
+  width: 255px;
+  height: 16px;
+  top: 472px;
+  left: 596px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/*Inicio da parte de recupere a senha*/
+
+.form__Senha__Titulo {
+  position: absolute;
+  width: 396px;
+  height: 43px;
+  top: 68px;
+  left: 552px;
+  color: var(--primeira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.senha__Frase {
+  position: absolute;
+  width: 396px;
+  height: 38px;
+  top: 142px;
+  left: 552px;
+  color: var(--primeira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.senha__Email {
+  position: absolute;
+  width: 396px;
+  height: 69px;
+  top: 215px;
+  left: 551px;
+}
+
+.senha__Email__Titulo {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  top: -7px;
+  left: 0px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.senha__Email__Campo {
+  position: absolute;
+  width: 104px;
+  height: 24px;
+  top: 34px;
+  left: 20px;
+  color: var(--terceira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 12px 268px 11px 20px;
+}
+
+.senha__Email__Campo {
+  box-sizing: border-box;
+  border: 1px solid;
+  position: absolute;
+  width: 396px;
+  height: 47px;
+  top: 22px;
+  left: 0%;
+  right: 0%;
+  top: 31.88%;
+  bottom: 0%;
+  color: var(--terceira-cor);
+  background-color: var(--quarta-cor);
+}
+
+.senha__Botao {
+  position: absolute;
+  width: 396px;
+  height: 47px;
+  top: 304px;
+  left: 550px;
+}
+
+.senha__Botao__Campo {
+  position: absolute;
+  width: 189px;
+  height: 19px;
+  top: 20px;
+  left: 104px;
+  color: var(--quarta-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 14px 90px 14px 104px;
+}
+
+.senha__Botao__Campo {
+  box-sizing: border-box;
+  border: 1px solid;
+  position: absolute;
+  width: 396px;
+  height: 47px;
+  top: 20px;
+  left: 0px;
+
+  color: var(--terceira-cor);
+  background-color: var(--quarta-cor);
+}

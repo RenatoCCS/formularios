@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family= Roboto :wght@400;700 & display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primeira-cor: #3f3d56;
+  --segunda-cor: #323730;
+  --terceira-cor: #abb3a8;
+  --quarta-cor: #ffffff;
+
+  --fonte-primaria: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form__Cadastro__Titulo {
+  position: absolute;
+  width: 302px;
+  height: 43px;
+  left: 569px;
+  top: 68px;
+  color: var(--primeira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px; /*o indicado é 37px, mas se manter quebra a linha*/
+  line-height: 43px;
+  text-align: center;
+}
+

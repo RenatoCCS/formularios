@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family= Roboto :wght@400;700 & display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primeira-cor: #3f3d56;
+  --segunda-cor: #323730;
+  --terceira-cor: #abb3a8;
+  --quarta-cor: #ffffff;
+--quinta-cor:#3F3F40
+
+  --fonte-primaria: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form__Cadastro__Titulo {
+  position: absolute;
+  width: 302px;
+  height: 43px;
+  left: 569px;
+  top: 68px;
+  color: var(--primeira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px; /*o indicado é 37px, mas se manter quebra a linha*/
+  line-height: 43px;
+  text-align: center;
+}
+
+.nome__Cadastro {
+  position: absolute;
+  width: 396px;
+  height: 69px;
+  top: 139px;
+  left: 522px;
+}
+
+.nome__Cadastro__Nomecompleto {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  top: -6px;
+  left: 0px;
+  color: var(--segunda-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.nome__Cadastro__Campo {
+  position: absolute;
+  width: 163px;
+  height: 24px;
+  top: 34px;
+  left: 14px;
+  color: var(--terceira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.nome__Cadastro__Campo {
+  box-sizing: border-box;
+  border: 1px solid;
+  position: absolute;
+  width: 396px;
+  height: 47px;
+  top: 22px;
+  left: 0%;
+  right: 0%;
+  top: 31, 88%;
+  bottom: 0%;
+  color: var(--terceira-cor);
+  background-color: var(--quarta-cor);
+}
+
+.data__Cadastro {
+  position: absolute;
+  width: 170px;
+  height: 74px;
+  left: 522px;
+  top: 232px;
+}
+
+.data__Cadastro__Nascimento {
+  position: absolute;
+  width: 127px;
+  height: 18px;
+  top: -4px;
+  left: 0px;
+  color: var(--quinta-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.data__Cadastro__Calendario{
+  position: absolute;
+  width: 83px;
+  height: 24px;
+  top: 12px;
+  left: 14px;
+  color: var(--terceira-cor);
+  font-family: var(--fonte-primaria);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;}
+
+  .data__Cadastro__Calendario {
+    box-sizing: border-box;
+    border: 1px solid;
+    position: absolute;
+    width: 170px;
+    height: 47px;
+    top: 22px;
+    left: 0%;
+    right: 0%;
+    top: 31, 88%;
+    bottom: 0%;
+    color: var(--terceira-cor);
+    background-color: var(--quarta-cor);
+  }

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Faça seu cadastro</title>
+  </head>
+
+  <body class="container">
+    <form action="" class="form__Cadastro">
+      <div class="form__Cadastro__Titulo">
+        <h1>Faça seu cadastro</h1>
+      </div>
+
+      <div class="nome__Cadastro">
+        <label class="nome__Cadastro__Nomecompleto" for="name"
+          >Nome completo</label
+        >
+
+        <input
+          class="nome__Cadastro__Campo"
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Digite seu nome completo"
+        />
+      </div>
+
+      <div class="data__Cadastro">
+        <label class="data__Cadastro__Nascimento" for="date"
+          >Data de Nascimento</label
+        >
+        <br />
+
+        <input
+          class="data__Cadastro__Calendario"
+          id="date"
+          type="date"
+          name="date"
+          placeholder="dd/mm/aaaa"
+        />
+      </div>
+
+      <div class="pais__Cadastro">
+        <label class="pais__Cadastro__Pais" for="options__Cascading"
+          >País*</label
+        ><br />
+        <select
+          class="pais__Cadastro__Campo"
+          name="opções"
+          id="options__Cascading "
+        >
+          <option>Selecionar</option>
+          <option>Brasil</option>
+          <option>Argentina</option>
+          <option>Chile</option>
+          <option>Uruguai</option>
+        </select>
+        <img
+          class="pais__Cadastro__Seta"
+          src="./assets/arrow_drop_down.png"
+          alt="Icone de seta"
+        />
+      </div>
+
+      <section class="genero__Cadastro">
+        <legend class="genero__Cadastro__Titulo">Gênero:</legend>
+
+        <input
+          class="genero__Cadastro__Botao1"
+          id="option__Button__Feminino"
+          type="radio"
+          name="botão"
+        />
+        <label class="genero__Cadastro__Feminino" for="option__Button__Feminino"
+          >Feminino</label
+        >
+
+        <input
+          class="genero__Cadastro__Botao2"
+          id="option__Button__Masculino"
+          type="radio"
+          name="botão"
+        />
+        <label
+          class="genero__Cadastro__Masculino"
+          for="option__Button__Masculino"
+          >Masculino</label
+        >
+
+        <input
+          class="genero__Cadastro__Botao3"
+          id="option__Button__Naodeclarar"
+          type="radio"
+          name="botão"
+        />
+        <label
+          class="genero__Cadastro__Naodeclarar"
+          for="option__Button__Naodeclarar"
+          >Não declarar</label
+        >
+      </section>
+      <br />
+
+      <div class="email__Cadastro">
+        <label class="email__Cadastro__Titulo" for="email">E-mail</label>
+        <br />
+        <input
+          class="email__Cadastro__Campo"
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Digite seu e-mail"
+        />
+      </div>
+
+      <div class="senha__Cadastro">
+        <label class="senha__Cadastro__Titulo" for="password">Senha</label>
+        <br />
+        <input
+          class="senha__Cadastro__Campo"
+          id="password"
+          type="password"
+          name="senha"
+          placeholder="Crie uma senha"
+        />
+      </div>
+
+      <div class="confirma__Cadastro">
+        <label class="confirma__Cadastro__Titulo" for="confirm__Password"
+          >Confirme sua senha</label
+        >
+        <br />
+        <input
+          class="confirma__Cadastro__Campo"
+          id="confirm__Password"
+          type="password"
+          name="confirmar__Senha"
+          placeholder="Confirmar senha"
+        />
+      </div>
+
+      <div class="termo__Cadastro">
+        <input
+          class="termo__Cadastro__Botao"
+          type="checkbox"
+          name="termos"
+          id="term"
+        />
+        <label class="termo__Cadastro__Texto" for="term"
+          >Aceito os termos e condições e concordo com as políticas de
+          privacidade do Hall To Code.</label
+        >
+      </div>
+
+      <div class="botao__Cadastro">
+        <button class="botao__Cadastro__Cadastrar" type="submit">
+          Cadastrar
+        </button>
+      </div>
+
+      <div class="pergunta__Cadastro">
+        <p>Já tem uma conta no Hall To Code? Entre agora</p>
+      </div>
+    </form>
+  </body>
+</html>

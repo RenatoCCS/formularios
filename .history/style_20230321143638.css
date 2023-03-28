@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family= Roboto :wght@400;700 & display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primeira-cor: #3f3d56;
+
+  --fonte-primaria: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form__Cadastro__titulo {
+  position: absolute;
+  width: 302px;
+  height: 43px;
+  left: 569px;
+  top: 68px;
+  color: var(--primeira-cor);
+  font-family: var(--fonte-primaria);
+}
